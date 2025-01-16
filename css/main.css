@@ -40,3 +40,7 @@ nav .navbar-nav li a:hover {
 .custom-bg-color {
     background-color: #f9f9f9;
 }
+
+.custom-link-color {
+    color: #108a00 !important;
+}
