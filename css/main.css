@@ -1,0 +1,42 @@
+body {
+    font-family: 'Inter';
+}
+
+nav .navbar-nav li a{
+    color: #181818 !important;
+    font-weight: 500;
+}
+
+nav .navbar-nav li a:hover { 
+    color: #108a00 !important;
+}
+
+.navbar-brand {
+    font-weight: 500;
+    color: #181818 !important;
+}
+
+.btn-primary {
+    background-color: #108a00 !important;
+    border: 1px solid #108a00;
+}
+
+.btn-primary:hover {
+    background-color: #14a800 !important;
+    border: 1px solid #14a800;
+}
+
+.btn-outline-secondary {
+    border: 1px solid #108a00;
+    color: #108a00;
+}
+
+.btn-outline-secondary:hover {
+    background-color: #fff;
+    color: #14a800;
+    border: 1px solid #14a800;
+}
+
+.custom-bg-color {
+    background-color: #f9f9f9;
+}
