@@ -37,10 +37,40 @@ nav .navbar-nav li a:hover {
     border: 1px solid #14a800;
 }
 
-.custom-bg-color {
+.gray-bg-color {
     background-color: #f9f9f9;
+}
+
+.white-bg-color {
+    background-color: #fff;
 }
 
 .custom-link-color {
     color: #108a00 !important;
+}
+
+.primary-color {
+    color: #108a00 !important;
+}
+
+.bg-image {
+    background-image: url('../img/ms.png');
+    background-size: cover;
+    background-position: center;
+    height: 75vh;
+}
+
+.badge-primary {
+    /* background-color: #108a00 !important;
+    border: 1px solid #108a00; */
+    background-color: #fff !important;
+    color: #108a00;
+    border: 1px solid #108a00;
+}
+
+.bg-image-gh {
+    background-image: url('../img/Untitled\ design.png');
+    background-size: cover;
+    background-position: center;
+    height: 75vh;
 }
