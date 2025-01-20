@@ -69,7 +69,21 @@ nav .navbar-nav li a:hover {
 }
 
 .bg-image-gh {
-    background-image: url('../img/Untitled\ design.png');
+    background-image: url('../img/gw.png');
+    background-size: cover;
+    background-position: center;
+    height: 75vh;
+}
+
+.bg-image-s1 {
+    background-image: url('../img/dawn.png');
+    background-size: cover;
+    background-position: center;
+    height: 75vh;
+}
+
+.bg-image-s2 {
+    background-image: url('../img/lp.jpg');
     background-size: cover;
     background-position: center;
     height: 75vh;
