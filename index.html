@@ -14,25 +14,25 @@
   </head>
   <body>
     <!-- Navbar section start -->
-    <nav class="navbar navbar-expand-lg border-bottom">
+    <nav class="navbar navbar-expand-lg sticky-top  border-bottom" style="background-color: #fff;">
         <div class="container col-xxl-10">
-            <a class="navbar-brand" href="#">Nafio Nabi</a>
+            <a class="navbar-brand" href="#" id="#home">Nafio Nabi</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="#">Work</a>
+                        <a class="nav-link" aria-current="page" href="#work">Work</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="#">Reviews</a>
+                        <a class="nav-link" aria-current="page" href="#reviews">Reviews</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="#">Services</a>
+                        <a class="nav-link" aria-current="page" href="#services">Services</a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" aria-current="page" href="#">About</a>
+                      <a class="nav-link" aria-current="page" href="#about">About</a>
                     </li>
                     <!-- <li class="nav-item">
                         <a class="nav-link" aria-current="page" href="#">Blog</a>
@@ -61,9 +61,9 @@
       <div class="px-4 pt-5 mt-5 text-center">
         <h1 class="display-4 fw-bold text-body-emphasis">Get a Shopify Store That Gets Sales</h1>
         <div class="col-lg-6 mx-auto">
-          <p class="lead mb-4">Get a well-designed, functional, and fast Shopify store that increases sales for <i><a href="https://www.shopify.com/blog/what-is-direct-to-consumer" class="custom-link-color" target="_blank">direct-to-consumer</a></i> brands.</p>
+          <p class="lead mb-4" id="#home">Get a well-designed, functional, and fast Shopify store that increases sales for <i><a href="https://www.shopify.com/blog/what-is-direct-to-consumer" class="custom-link-color" target="_blank">direct-to-consumer</a></i> brands.</p>
           <div class="d-grid gap-2 d-sm-flex justify-content-sm-center mb-5">
-            <a href="#" class="btn btn-primary btn-lg px-4 me-sm-3">Book a Call</a>
+            <a href="#" class="btn btn-primary btn-lg px-4 me-sm-3" onclick="Beacon('open');">Book a Call</a>
             <a href="#work" class="btn btn-outline-secondary btn-lg px-4" >See My Work</a>
           </div>
         </div>
@@ -175,7 +175,7 @@
       </div>
       <!-- Work ends begins -->
        <!-- Reviews section begins -->
-        <div class="container col-xxl-10 py-5">
+        <div class="container col-xxl-10 py-5" id="reviews">
             <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">Reviews</h1>
             <p class="lead">See what my clients have to say about my tailored <br> Shopify solutions that have helped them grow their <br> online sales and delight their customers.</p>
             <div class="row align-items-center white-bg-color">
@@ -255,7 +255,7 @@
         </div>
        <!-- Reviews section ends -->
       <!-- Services section begins  -->
-      <div class="container-fluid py-5 gray-bg-color">
+      <div class="container-fluid py-5 gray-bg-color" id="services">
         <div class="container col-xxl-10">
             <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">Services</h1>
             <!-- <p class="lead">I provide tailored Shopify solutions, designed to <br> create visually stunning, and functional Shopify <br> stores that convert visitors into customers.</p> -->
@@ -338,7 +338,7 @@
                   </div>
                 </div>
                 <div class="d-grid gap-2 d-md-flex justify-content-md-start mb-4 mb-lg-3">
-                  <a class="btn btn-primary btn-lg px-4 me-md-2">Get an Estimate</a>
+                  <a class="btn btn-primary btn-lg px-4 me-md-2" onclick="Beacon('open');">Get an Estimate</a>
                 </div>
               </div>
               <div class="col-lg-5 p-0 bg-image-s1 rounded-end-4">
@@ -421,7 +421,7 @@
                   </div>
                 </div>
                 <div class="d-grid gap-2 d-md-flex justify-content-md-start mb-4 mb-lg-3">
-                  <a class="btn btn-primary btn-lg px-4 me-md-2">Get an Estimate</a>
+                  <a class="btn btn-primary btn-lg px-4 me-md-2" onclick="Beacon('open');">Get an Estimate</a>
                 </div>
               </div>
               <div class="col-lg-5 p-0 bg-image-s2 rounded-start-4">
@@ -431,7 +431,7 @@
       </div>
       <!-- Services section ends  -->
       <!-- About section begins  -->
-       <div class="container col-xxl-10 py-5">
+       <div class="container col-xxl-10 py-5" id="about">
         <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
           <div class="col-10 col-sm-8 col-lg-6">
             <img src="https://cdn.prod.website-files.com/66a0ff59c3473e9776b974a1/66a81ca65a3744cabb67752a_2149136870-p-800.webp" class="d-block mx-lg-auto img-fluid rounded-4" alt="Bootstrap Themes" width="700" height="500" loading="lazy">
@@ -497,7 +497,7 @@
               </div>
             </div>
             <div class="d-grid gap-2 d-md-flex justify-content-md-start">
-              <a class="btn btn-primary btn-lg px-4 me-md-2">Book a Call</a>
+              <a class="btn btn-primary btn-lg px-4 me-md-2" onclick="Beacon('open');">Book a Call</a>
             </div>
           </div>
         </div>
