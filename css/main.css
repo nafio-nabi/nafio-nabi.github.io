@@ -132,7 +132,12 @@ nav .navbar-nav li a:hover {
     .desktop-br {
         display: none;
     }
+
+    .custom-font-size {
+        font-size: 1.1rem !important;
+    }
  }
+
 
  @media (max-width: 768px) { 
     .sm-m {
