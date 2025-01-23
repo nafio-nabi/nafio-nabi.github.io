@@ -133,3 +133,77 @@ nav .navbar-nav li a:hover {
         display: none;
     }
  }
+
+ @media (max-width: 768px) { 
+    .sm-m {
+        margin-top: 0.25rem !important;
+    }
+
+    .sm-mb {
+        margin-bottom: 2rem !important;
+    }
+
+    .sm-mb-0 {
+        margin-bottom: 0 !important;
+    }
+
+    .custom-rounded-sm {
+        border-top-right-radius: 0 !important;
+        border-bottom-left-radius: 1rem !important;
+    }
+
+    .custom-rounded-sm-1 {
+        border-top-left-radius: 0 !important;
+        border-bottom-right-radius: 1rem !important;
+    }
+
+    .desktop-br {
+        display: none;
+    }
+ }
+
+ @media (max-width: 992px) { 
+    .sm-m {
+        margin-top: 0.25rem !important;
+    }
+
+    .sm-mb {
+        margin-bottom: 2rem !important;
+    }
+
+    .sm-mb-0 {
+        margin-bottom: 0 !important;
+    }
+
+    .custom-rounded-sm {
+        border-top-right-radius: 0 !important;
+        border-bottom-left-radius: 1rem !important;
+    }
+
+    .custom-rounded-sm-1 {
+        border-top-left-radius: 0 !important;
+        border-bottom-right-radius: 1rem !important;
+    }
+
+    .desktop-br {
+        display: none;
+    }
+ }
+
+ @media (max-width: 1024px) {
+    .bg-image-ms {
+        height: 50vh;
+    }
+
+    .bg-image-gh {
+        height: 50vh;
+    }
+
+    .bg-image-s1 {
+        height: 50vh;
+    }
+
+    .bg-image-s2 {
+        height: 50vh;
+    }
+ }
