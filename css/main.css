@@ -69,7 +69,7 @@ nav .navbar-nav li a:hover {
 }
 
 .bg-image-gh {
-    background-image: url('../img/gw.png');
+    background-image: url('../img/greenhub_workspace.png');
     background-size: cover;
     background-position: center;
     height: 75vh;
@@ -99,4 +99,37 @@ nav .navbar-nav li a:hover {
     align-items: center;
     /* height: 100vh; */
     width: 25%;
-  }
+}
+
+.desktop-br {
+    display: inline;
+}
+
+/* Responsive CSS */
+@media (max-width: 576px) { 
+    .sm-m {
+        margin-top: 0.25rem !important;
+    }
+
+    .sm-mb {
+        margin-bottom: 2rem !important;
+    }
+
+    .sm-mb-0 {
+        margin-bottom: 0 !important;
+    }
+
+    .custom-rounded-sm {
+        border-top-right-radius: 0 !important;
+        border-bottom-left-radius: 1rem !important;
+    }
+
+    .custom-rounded-sm-1 {
+        border-top-left-radius: 0 !important;
+        border-bottom-right-radius: 1rem !important;
+    }
+
+    .desktop-br {
+        display: none;
+    }
+ }
