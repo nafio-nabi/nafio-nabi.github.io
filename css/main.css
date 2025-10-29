@@ -53,8 +53,15 @@ nav .navbar-nav li a:hover {
     color: #108a00 !important;
 }
 
-.bg-image-ms {
-    background-image: url('../img/mixit_spices_product.png');
+.bg-image-fb {
+    background-image: url('../img/forever-brew.png');
+    background-size: cover;
+    background-position: center;
+    height: 75vh;
+}
+
+.bg-image-gw {
+    background-image: url('../img/greenhub.png');
     background-size: cover;
     background-position: center;
     height: 75vh;
@@ -68,8 +75,15 @@ nav .navbar-nav li a:hover {
     border: 1px solid #108a00;
 }
 
-.bg-image-gh {
-    background-image: url('../img/greenhub_workspace.png');
+.bg-image-bs {
+    background-image: url('../img/beauty-solutions.png');
+    background-size: cover;
+    background-position: center;
+    height: 75vh;
+}
+
+.bg-image-pz {
+    background-image: url('../img/pettzy.png');
     background-size: cover;
     background-position: center;
     height: 75vh;
@@ -83,6 +97,13 @@ nav .navbar-nav li a:hover {
 }
 
 .bg-image-s2 {
+    background-image: url('../img/shopify-landing-page-bg-img.png');
+    background-size: cover;
+    background-position: center;
+    height: 75vh;
+}
+
+.bg-image-s3 {
     background-image: url('../img/migrate_to_shopify.png');
     background-size: cover;
     background-position: center;
