@@ -54,7 +54,7 @@ nav .navbar-nav li a:hover {
 }
 
 .bg-image-fb {
-    background-image: url('../img/forever-brew.png');
+    background-image: url('../img/pudl.png');
     background-size: cover;
     background-position: center;
     height: 75vh;
@@ -83,7 +83,7 @@ nav .navbar-nav li a:hover {
 }
 
 .bg-image-pz {
-    background-image: url('../img/pettzy.png');
+    background-image: url('../img/simply-real-market.png');
     background-size: cover;
     background-position: center;
     height: 75vh;
@@ -126,6 +126,10 @@ nav .navbar-nav li a:hover {
     display: inline;
 }
 
+.custom-height {
+    height: 45vh;
+}
+
 /* Responsive CSS */
 @media (max-width: 576px) { 
     .sm-m {
@@ -156,6 +160,11 @@ nav .navbar-nav li a:hover {
 
     .custom-font-size {
         font-size: 1.1rem !important;
+    }
+
+    .cp-1 {
+        padding-left: 24px !important;
+        padding-right: 24px !important;
     }
  }
 
